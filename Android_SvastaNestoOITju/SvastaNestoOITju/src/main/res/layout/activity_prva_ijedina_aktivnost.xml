@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0099cc"
+    tools:context="jakopec.osc.svastanestooitju.PrvaIJedinaAktivnost"
+    android:weightSum="1"
+    android:paddingTop="@dimen/abc_action_bar_default_height">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prvi broj"
+            android:id="@+id/lblPrviBroj"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/txtPrviBroj" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drugi broj"
+        android:id="@+id/lblDrugiBroj"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/txtDrugiBroj" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zbroji"
+        android:id="@+id/btnZbroji"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.20" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Rezultat"
+        android:id="@+id/lblRezutat"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.28"
+        android:textStyle="bold"
+        android:gravity="center_vertical|center_horizontal" />
+
+
+</LinearLayout>
